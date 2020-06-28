@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFDE04">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_page"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="10sp"
+        android:textColor="#000000">
+    </TextView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:inputType="phone"
+        android:autofillHints="">
+    </EditText>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="">
+    </EditText>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="#1150EF"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        android:textColor="#ffffff"
+        android:fontFamily="serif">
+    </Button>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:background="#F1277E"
+        android:textColor="#ffffff"
+        android:fontFamily="serif">
+
+    </Button>
+
+</LinearLayout>

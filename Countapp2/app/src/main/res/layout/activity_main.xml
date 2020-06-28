@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:background="#D1F64A"
+        android:textSize="85sp"
+        android:textColor="#4B0AC5"
+        android:id="@+id/text">
+    </TextView>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus"
+            android:background="#FB4B87"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus"
+            android:background="#2196F3"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="0.1"
+            android:text="@string/zero"
+            android:background="#08E94E"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="0.7"
+            android:text="@string/toast"
+            android:background="#FD3434"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+</LinearLayout>
