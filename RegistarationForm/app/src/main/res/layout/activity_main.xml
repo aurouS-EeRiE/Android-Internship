@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <EditText
+        android:layout_marginTop="30sp"
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_roll_number"
+        android:inputType="text"
+        android:autofillHints=""
+        android:textColor="#000000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:inputType="text"
+        android:autofillHints=""
+        android:textColor="#000000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:autofillHints=""
+        android:textColor="#000000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_email_id"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        android:textColor="#000000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        android:textColor="#000000">
+
+    </EditText>
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Gender"
+        android:prompt="@string/choose_gender"
+        android:layout_marginBottom="10sp">
+    </Spinner>
+    <Spinner
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Branch"
+        android:prompt="@string/choose_branch"
+        android:layout_marginBottom="10sp">
+    </Spinner>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="#000000"
+        android:textColor="#ffffff">
+    </Button>
+
+
+
+
+
+</LinearLayout>
