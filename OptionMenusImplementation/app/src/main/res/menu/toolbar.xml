@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        app:showAsAction="never"
+        android:title="@string/share">
+    </item>
+    <item
+        android:id="@+id/dali"
+        app:showAsAction="never"
+        android:title="@string/dial">
+    </item>
+    <item
+        android:id="@+id/gallery"
+        app:showAsAction="never"
+        android:title="@string/gallery">
+    </item>
+
+</menu>

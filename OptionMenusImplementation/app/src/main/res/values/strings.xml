@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Option Menus Implementation</string>
+    <string name="select_any_option_to_implement_a_task">Select any option to implement a task</string>
+    <string name="dail">Dail</string>
+    <string name="share">Share</string>
+    <string name="gallery">Gallery</string>
+    <string name="dial">dial</string>
+</resources>
