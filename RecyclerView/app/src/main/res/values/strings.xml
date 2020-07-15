@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="image">image</string>
+    <string name="hello">Hello</string>
+</resources>
